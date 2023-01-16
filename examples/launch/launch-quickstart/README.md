@@ -22,4 +22,4 @@ Running `wandb launch -d launch-quickstart -p fmnist` will start the job and sen
 metrics to a new project called `fmnist` in your Weights & Biases account.
 
 To learn how you use the same tool to launch jobs into Kubernetes or Amazon 
-SageMaker, check out more of [our docs](https://docs.wandb.ai/guides/launch)!
+SageMaker, [check out more of our docs](https://docs.wandb.ai/guides/launch)!
