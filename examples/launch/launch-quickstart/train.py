@@ -38,7 +38,7 @@ class FashionCNN(nn.Module):
     return out
 
 
-# Training hyperparamters
+# Training hyperparameters
 config = {
   "learning_rate": 0.0001,
   "batch_size": 32,
