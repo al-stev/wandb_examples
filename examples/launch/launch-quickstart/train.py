@@ -42,7 +42,7 @@ class FashionCNN(nn.Module):
 config = {
   "learning_rate": 0.0001,
   "batch_size": 32,
-  "epochs": 1,
+  "epochs": 2,
 }
 #wandb.Settings(disable_git=True)
 # Pass config into wandb.init
