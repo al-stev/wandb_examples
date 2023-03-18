@@ -42,11 +42,11 @@ class FashionCNN(nn.Module):
 config = {
   "learning_rate": 0.0001,
   "batch_size": 32,
-  "epochs": 5,
+  "epochs": 1,
 }
-
+#wandb.Settings(disable_git=True)
 # Pass config into wandb.init
-with wandb.init(config=config) as run:
+with wandb.init(config=config, project="launch-test") as run:
   
   # Training setup
   config = run.config
@@ -93,3 +93,4 @@ with wandb.init(config=config) as run:
       optimizer.zero_grad()
       loss.backward()
       optimizer.step()
+  #run.log_code()
