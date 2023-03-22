@@ -42,9 +42,9 @@ class FashionCNN(nn.Module):
 config = {
   "learning_rate": 0.0001,
   "batch_size": 32,
-  "epochs": 2,
+  "epochs": 1,
 }
-#wandb.Settings(disable_git=True)
+wandb.Settings(disable_git=False)
 # Pass config into wandb.init
 with wandb.init(config=config, project="launch-test") as run:
   
